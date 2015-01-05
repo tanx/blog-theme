@@ -15,7 +15,7 @@
 /******************************************************************************\
     Vendor imports
 \******************************************************************************/
-@import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
 /**
  * SCSS color scheme for the billy theme
  *
@@ -706,10 +706,7 @@ blockquote {
   blockquote cite {
     font-weight: bold; }
 
-.home {
-  border: 1px solid red; }
-
-.home blockquote:before {
+.home-template blockquote:before {
   display: none; }
 
 code {
